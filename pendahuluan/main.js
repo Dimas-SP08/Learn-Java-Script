@@ -36,5 +36,11 @@ switch(pacar) {
     break
 
 }
+
+let saldoAwal=50000
+let saldoTambahan = 80000
+
 alert(`nama saya ${nama} usia saya itu ${40} berat ${beratBadan} pacar ${pacar}`)
+
+alert(`saldo awal saya ${saldoAwal} dan saldo akhir ${saldoTambahan} dan total saldonya sebanyak ${saldoAwal+saldoTambahan}`)
 
