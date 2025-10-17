@@ -27,6 +27,27 @@ if(keinginan == "s" ) {
     
 }
 
+const body = document.body
+const btn = document.querySelector("#btn")
+btn.textContent= 'klik saya'
+body.append(btn)
+
+const text = document.createElement('p')
+body.append(text)
+
+
+function muncul() {
+    text.textContent= "diespy"
+    text.style.color = 'black'
+    
+}
+
+function ubah() {
+    text.style.color = 'blue'
+   
+    
+}
+
 
 
 
